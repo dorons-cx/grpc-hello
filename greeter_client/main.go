@@ -36,5 +36,5 @@ func main() {
 	if err != nil {
 		log.Fatalf("could not greet: %v", err)
 	}
-	log.Printf("Greeting: %s", r.GetMessage())
+	log.Printf("Greeting: %sm Count: %v", r.GetMessage(), r.GetCount())
 }
